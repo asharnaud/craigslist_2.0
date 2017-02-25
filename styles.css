@@ -52,8 +52,10 @@
 #calban {
 	font-family:'Playfair Display', serif;
 	font-weight: 600;
-	padding:4px;
+	padding:2px;
   margin: 20px;
+  font-size: 20px;
+  text-decoration: underline;
 }
 .cal {
 	font-family: 'EB Garamond', serif;
@@ -89,28 +91,33 @@
 }
 /*The calendar and about links stop here.*/
 /*This is where the nearby cities start.*/
-.cities {
-  font-family:'Playfair Display', serif;
-  font-weight: 600;
-  padding:6px 0 6px 0;
-  margin: 0 20px 0 0;
-  font-size: 16px;
-}
+
 .menu {
-  width:205px;
+  width:225px;
   background-color: #CFD4D3;
   text-align: center;
   padding: 0;
   margin: 0 30px 0 0;
+  position:relative;
+  bottom: 550px;
 }
 .menu li {
   list-style-type: none;
-  margin:0 30% 0 0;
+  margin:0 25% 0 0;
   padding:0 0 6px 0;
   text-align: center;
   font-size: 12px;
   line-height: 15px;
   font-family: 'Playfair Display', serif;
+}
+.cities {
+  font-family:'Playfair Display', serif;
+  font-weight: 600;
+  padding:6px 0 6px 0;
+  margin: 0 25px 0 0;
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
 }
 
 /*The middle column links start here.*/
