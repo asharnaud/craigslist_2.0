@@ -1,4 +1,4 @@
-.header-logo{
+.header-logo {
 	font-size: 80px;
 	background-color: teal;
 	color: white;
@@ -12,11 +12,13 @@
     overflow: hidden;
     background-color: #333;
 }
+
 .userlinks li {
     float: left;
     font-family: 'EB Garamond', serif;
     font-size: 16px;
 }
+
 .userlinks li a {
     display: block;
     color: white;
@@ -24,6 +26,7 @@
     padding: 10px 10px;
     text-decoration: none;
 }
+
 .userlinks li a:hover {
     background-color: #111;
 }
@@ -33,15 +36,18 @@
 	text-align: center;
 	letter-spacing: 2px;
 }
+
 #postlks {
 	text-align: center;
 	font-family: 'Playfair Display', serif;
 	font-size: 14px;
 }
+
 #post {
 	border-right: 1px solid black;
 	padding: 4px;
 }
+
 .homepage-search {
 	text-align: center;
 	font-family:'Playfair Display', serif;
@@ -57,6 +63,7 @@
   font-size: 20px;
   text-decoration: underline;
 }
+
 .cal {
 	font-family: 'EB Garamond', serif;
 	border: 2px solid #111;
@@ -74,6 +81,7 @@
   margin:0 40px 0 0;
   text-align: center;
 }
+
 .leftlinks {
   width:205px;
   background-color: #CFD4D3;
@@ -82,6 +90,7 @@
   margin: 220px 20px 0 0;
   position: absolute;
 }
+
 .cal-and-head {
   width:205px;
   background-color: #CFD4D3;
@@ -124,7 +133,7 @@
 
 /*The middle column links start here.*/
 .middlecolms {
-  display:f lex;
+  display: flex;
   flex-direction: row;
   flex: auto;
   align-items: flex-start;
@@ -140,7 +149,7 @@
   text-align: center;
 }
 
-.col h4{
+.col h4 {
   font-family: 'Satisfy', cursive;
   font-size: 24px;
   text-align: center;
@@ -162,5 +171,4 @@
   list-style-type: none;
   font-family: 'EB Garamond', serif;
   font-size: 14px;
-
 }
