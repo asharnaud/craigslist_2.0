@@ -93,7 +93,7 @@
 /*This is where the nearby cities start.*/
 
 .menu {
-  width:225px;
+  width: 225px;
   background-color: #CFD4D3;
   text-align: center;
   padding: 0;
@@ -101,19 +101,21 @@
   position:relative;
   bottom: 550px;
 }
+
 .menu li {
   list-style-type: none;
-  margin:0 25% 0 0;
-  padding:0 0 6px 0;
+  margin: 0 25% 0 0;
+  padding: 0 0 6px 0;
   text-align: center;
   font-size: 12px;
   line-height: 15px;
   font-family: 'Playfair Display', serif;
 }
+
 .cities {
-  font-family:'Playfair Display', serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 600;
-  padding:6px 0 6px 0;
+  padding: 6px 0 6px 0;
   margin: 0 25px 0 0;
   font-size: 20px;
   text-decoration: underline;
@@ -122,30 +124,33 @@
 
 /*The middle column links start here.*/
 .middlecolms {
-  display:flex;
+  display:f lex;
   flex-direction: row;
   flex: auto;
   align-items: flex-start;
   justify-content: space-between;
-  margin:0 2px 2px 250px;
+  margin: 0 2px 2px 250px;
   text-align: left;
 }
+
 .middlecolms li {
   list-style-type: none;
   font-family: 'EB Garamond', serif;
   font-size: 14px;
   text-align: center;
 }
+
 .col h4{
   font-family: 'Satisfy', cursive;
   font-size: 24px;
   text-align: center;
-  padding:4px;
-  margin:0 25px 0 0;
+  padding: 4px;
+  margin: 0 25px 0 0;
   background-color: #DAE6E3;
 }
+
 .cats {
-  display:flex;
+  display: flex;
   flex-direction: row;
 }
 
